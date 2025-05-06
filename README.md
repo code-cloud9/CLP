@@ -12,7 +12,7 @@ The code is for reproducing the numerical experiments and data example results i
 2) For comparison in weighted networks, please go to folder `./simulation/comparison/weighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc. The results are saved in the folder `./results/`.
 3) For comparison in unweighted networks, please go to folder `./simulation/comparison/unweighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc or dss. The results are saved in the folder `./results/`.
 
-### Numerical Analysis of Trading Sharing Network in the Main File
+### Numerical Analysis of Trading Network in the Main File
   
 Please go to folder `./application/` and run `trade_main.m` for different significance levels.
 
