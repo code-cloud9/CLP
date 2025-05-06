@@ -8,9 +8,9 @@ The code is for reproducing the numerical experiments and data example results i
 
 ### Simulation Results in the Main File
 
-1) For tunning clp, please go to folder `./simulation/tune clp/` and run `clp_c*_stgs.m` where `*` is 05,1,15 for `c` values in {0.5,1,1.5}. The results saved in the folder `./results/`.
-2) For comparison in weighted networks, please go to folder `./simulation/comparison/weighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc. The results saved in the folder `./results/`.
-3) For comparison in unweighted networks, please go to folder `./simulation/comparison/unweighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc or dss. The results saved in the folder `./results/`.
+1) For tunning clp, please go to folder `./simulation/tune clp/` and run `clp_c*_stgs.m` where `*` is 05,1,15 for `c` values in {0.5,1,1.5}. The results are saved in the folder `./results/`.
+2) For comparison in weighted networks, please go to folder `./simulation/comparison/weighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc. The results are saved in the folder `./results/`.
+3) For comparison in unweighted networks, please go to folder `./simulation/comparison/unweighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc or dss. The results are saved in the folder `./results/`.
 
 ### Numerical Analysis of Trading Sharing Network in the Main File
   
@@ -18,8 +18,8 @@ Please go to folder `./application/` and run `trade_main.m` for different signif
 
 ### Simulation Results in the Appendix
 
-1) For comparison in weighted networks, please go to folder `./simulation/appendix/weighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc. The results saved in the folder `./results/`.
-2) For comparison in unweighted networks, please go to folder `./simulation/appendix/unweighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc or dss. The results saved in the folder `./results/`.
+1) For comparison in weighted networks, please go to folder `./simulation/appendix/weighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc. The results are saved in the folder `./results/`.
+2) For comparison in unweighted networks, please go to folder `./simulation/appendix/unweighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc or dss. The results are saved in the folder `./results/`.
 
 ### Numerical Analysis of Trading Sharing Network in the Appendix
   
