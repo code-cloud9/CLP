@@ -28,7 +28,7 @@ The code is for reproducing the numerical experiments and data analysis results 
 2) **Figure B.2:** Please go to folder `./simulation/appendix/unweighted network/` and run `*_signal_stgs.m`, where `*` is `clp` or `cmc` or `dss`. To save time, you may use the intermediate results saved in the folder `./results/` to calculate the empirical power and FDR.
 
 <!-- Numerical Analysis of Trading Network in the Appendix -->
-3) **Figure C.1:** Please go to folder `./application/` and run `trade_appendix.m` for different null values.
+3) **Figure C.1:** Please go to folder `./application/` and run `trade_appendix.m` unsing different null values.
 
 ## License
 
