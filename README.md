@@ -1,6 +1,6 @@
 ## Introduction
 
-The code is for reproducing the numerical experiments and data example results in 'Conformal link prediction with false discovery rate control'.
+The code is for reproducing the numerical experiments and data example results in 'Conformal Link Prediction with False Discovery Rate Control'.
 
 ## Guidelines for Result Replication
 
