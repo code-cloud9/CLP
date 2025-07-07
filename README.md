@@ -2,26 +2,33 @@
 
 The code is for reproducing the numerical experiments and data example results in 'Conformal Link Prediction with False Discovery Rate Control'.
 
-## Guidelines for Result Replication
+## Guidelines for Result Reproduction
 
-### Simulation Results in the Main File
+### Simulation Results
 
-1) For tunning clp, please go to folder `./simulation/tune clp/` and run `clp_c*_stgs.m` where `*` is 05,1,15 for `c` values in {0.5,1,1.5}. The results are saved in the folder `./results/`.
-2) For comparison in weighted networks, please go to folder `./simulation/comparison/weighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc. The results are saved in the folder `./results/`.
-3) For comparison in unweighted networks, please go to folder `./simulation/comparison/unweighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc or dss. The results are saved in the folder `./results/`.
+<!-- For tunning clp -->
+1) **Simulation 1: Figure 3:** Please go to folder `./simulation/tune clp/` and run `clp_c*_stgs.m` where `*` is 05,1,15 for `c` values in {0.5,1,1.5}, to obtain the results. To save time, one can use the intermediate results saved in the folder `./results/` to calculate the empirical power and FDR.
 
-### Numerical Analysis of Trading Network in the Main File
+<!-- For comparison in weighted networks -->
+2) **Simulation 2: Figure 4:** Please go to folder `./simulation/comparison/weighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc. To save time, one can use the intermediate results saved in the folder `./results/` to calculate the empirical power and FDR.
+
+<!-- For comparison in unweighted networks -->
+3) **Simulation 2: Figure 5:** please go to folder `./simulation/comparison/unweighted network/` and run `*_unifc_stgs.m` where `*` is clp or cmc or dss. To save time, one can use the intermediate results saved in the folder `./results/` to calculate the empirical power and FDR.
+
+### Numerical Analysis of Trading Network
   
-Please go to folder `./application/` and run `trade_main.m` for different significance levels.
+**Figure 6:** Please go to folder `./application/` and run `trade_main.m` for different significance levels.
 
-### Simulation Results in the Appendix
+### Results in the Appendix
 
-1) For comparison in weighted networks, please go to folder `./simulation/appendix/weighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc. The results are saved in the folder `./results/`.
-2) For comparison in unweighted networks, please go to folder `./simulation/appendix/unweighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc or dss. The results are saved in the folder `./results/`.
+<!-- For comparison in weighted networks -->
+1) **Figure B.1:** Please go to folder `./simulation/appendix/weighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc, to obtain the results. To save time, one can use the intermediate results saved in the folder `./results/` to calculate the empirical power and FDR.
 
-### Numerical Analysis of Trading Network in the Appendix
-  
-Please go to folder `./application/` and run `trade_appendix.m` for different null values.
+<!-- For comparison in unweighted networks -->
+2) **Figure B.2:** Please go to folder `./simulation/appendix/unweighted network/` and run `*_signal_stgs.m` where `*` is clp or cmc or dss. To save time, one can use the intermediate results saved in the folder `./results/` to calculate the empirical power and FDR.
+
+<!-- Numerical Analysis of Trading Network in the Appendix -->
+3) **Figure C.1:** Please go to folder `./application/` and run `trade_appendix.m` for different null values.
 
 ## License
 
