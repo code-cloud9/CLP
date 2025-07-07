@@ -1,5 +1,3 @@
-# CRDM
-
 ## Introduction
 
 The code is for reproducing the numerical experiments and data example results in 'Conformal link prediction with false discovery rate control'.
