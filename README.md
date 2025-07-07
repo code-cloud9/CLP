@@ -19,7 +19,7 @@ The code is for reproducing the numerical experiments and data analysis results 
   
 1) **Figure 6:** Please go to folder `./application/` and run `trade_main.m` for different significance levels.
 
-### Results in the Appendix
+### Additional Results in the Appendix
 
 <!-- For comparison in weighted networks -->
 1) **Figure B.1:** Please go to folder `./simulation/appendix/weighted network/` and run `*_signal_stgs.m`, where `*` is `clp` or `cmc`, to obtain the results. To save time, you may use the intermediate results saved in the folder `./results/` to calculate the empirical power and FDR.
