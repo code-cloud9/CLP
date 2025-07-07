@@ -17,7 +17,7 @@ The code is for reproducing the numerical experiments and data analysis results 
 
 ### Numerical Analysis of Trading Network
   
-**Figure 6:** Please go to folder `./application/` and run `trade_main.m` for different significance levels.
+1) **Figure 6:** Please go to folder `./application/` and run `trade_main.m` for different significance levels.
 
 ### Results in the Appendix
 
